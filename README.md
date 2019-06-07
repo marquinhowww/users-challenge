@@ -16,7 +16,3 @@ GET `/user/websites`
 
 GET `/user/address`  
 3. Mostrar todos os usuários que no endereço contem a palavra ```suite```
-
-GET `/user/address`  
-3. Mostrar todos os usuários que no endereço contem a palavra ```suite```
-
