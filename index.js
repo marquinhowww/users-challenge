@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const helmet = require('helmet')
 
-const { logger } = require('./lib')
+const { logger, loggerMiddleware } = require('./lib')
 const { config } = require('./config')
 
 const { userRoutes } = require('./src/user/routes')
@@ -11,6 +11,7 @@ const { store } = require('./src/store')
 
 const app = express()
 
+app.use(loggerMiddleware)
 app.use(bodyParser.json())
 app.use(helmet())
 
