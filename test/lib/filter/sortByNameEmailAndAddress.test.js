@@ -1,4 +1,5 @@
 const test = require('ava')
+
 const { filter } = require('../../../lib')
 
 test('should sort by name', t => {
