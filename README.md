@@ -1,4 +1,4 @@
-# users challenge
+# Users challenge
 
 1. Os websites de todos os usuários
 2. O Nome, email e a empresa em que trabalha (em ordem alfabética).
@@ -16,3 +16,9 @@ GET `/user/websites`
 
 GET `/user/address`  
 3. Mostrar todos os usuários que no endereço contem a palavra ```suite```
+
+# Running:
+`docker-composer up`
+
+Docs:
+docs-marcos-mutant.now.sh
