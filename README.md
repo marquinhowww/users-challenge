@@ -20,5 +20,7 @@ GET `/user/address`
 # Running:
 `docker-composer up`
 
-Docs:
-docs-marcos-mutant.now.sh
+Open http://localhost:3000
+
+# Docs:
+http://docs-marcos-mutant.now.sh
